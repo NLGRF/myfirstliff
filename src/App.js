@@ -39,7 +39,7 @@ class App extends Component {
     event.preventDefault();
     liff.sendMessages([{
       type: 'text',
-      text: "Thank you, Bye!"
+      text: "Thank you, Bye!!"
     }]).then(() => {
       liff.closeWindow();
     });
